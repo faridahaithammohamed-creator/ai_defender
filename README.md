@@ -31,12 +31,12 @@ Evaluated on the unseen test split of the `deepset/prompt-injections` dataset us
 ##  Installation
 
 ```bash
-pip install git+https://github.com
+pip install git+https://github.com/faridahaithammohamed-creator/ai_defender.git
 ```
 
 Or install locally in development mode:
 ```bash
-git clone https://github.com
+git clone https://github.com/faridahaithammohamed-creator/ai_defender.git
 cd ai_defender
 pip install -e .
 ```
