@@ -19,16 +19,16 @@ Evaluated on the unseen test split of the `deepset/prompt-injections` dataset us
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-* **⚡ In-Line White-Box Probing:** Extracts hidden state representations during the standard forward pass with near-zero latency overhead.
-* **🕵️ Indirect Prompt Injection Detection:** Scans external context (web pages, emails, documents) read by an AI Agent to detect hidden malicious instructions before the agent is hijacked.
-* **🔒 Tool-Call Security Guard:** Inspects the model's internal intent right before executing sensitive tools (e.g., database deletion, file access, API calls).
-* **🎯 Custom Probe Trainer:** Includes `ProbeTrainer` to easily train and save custom linear probes on any Hugging Face Transformer architecture (Qwen, Llama, Mistral, GPT-2).
+* ** In-Line White-Box Probing:** Extracts hidden state representations during the standard forward pass with near-zero latency overhead.
+* ** Indirect Prompt Injection Detection:** Scans external context (web pages, emails, documents) read by an AI Agent to detect hidden malicious instructions before the agent is hijacked.
+* ** Tool-Call Security Guard:** Inspects the model's internal intent right before executing sensitive tools (e.g., database deletion, file access, API calls).
+* ** Custom Probe Trainer:** Includes `ProbeTrainer` to easily train and save custom linear probes on any Hugging Face Transformer architecture (Qwen, Llama, Mistral, GPT-2).
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 pip install git+https://github.com
@@ -43,7 +43,7 @@ pip install -e .
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```python
 import torch
@@ -82,6 +82,6 @@ print(defender.guard_tool_call(
 
 ---
 
-## 👩‍💻 Author
+##  Author
 **Farida Haitham Mohamed Amin**  
 Creator & Lead Developer of `ai_defender`
