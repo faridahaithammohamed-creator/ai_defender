@@ -8,7 +8,7 @@ Unlike traditional black-box text filters that rely on slow external moderation 
 
 ---
 
-## 📊 Benchmark Performance
+##  Benchmark Performance
 
 Evaluated on the unseen test split of the `deepset/prompt-injections` dataset using `Qwen/Qwen2.5-0.5B-Instruct` (Layer `-2`):
 
@@ -40,7 +40,6 @@ git clone https://github.com
 cd ai_defender
 pip install -e .
 ```
-
 
 ---
 
